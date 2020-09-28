@@ -3,5 +3,6 @@ public with sharing class AccountController {
       return [SELECT Id,Name,Active__c FROM Account WHERE Active__c = 'Yes'];
       system.debug('List of Accounts :');
       system.debug('I think so this code is final');
+      system.debug('This is another branch')
     }
   }
